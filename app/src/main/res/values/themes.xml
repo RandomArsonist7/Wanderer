@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Wanderer" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name = "windowSplashScreenBackground">@color/ic_mountain_background</item>
+        <item name = "windowSplashScreenAnimatedIcon">@drawable/ic_mountain_foreground</item>
+        <item name = "postSplashScreenTheme">@style/Theme.Wanderer</item>
+    </style>
+</resources>
